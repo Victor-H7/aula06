@@ -45,7 +45,7 @@
 
 var numero = 4
 
-if (numero > 1 || numero < 20){
+if (!(numero < 1 || numero > 20)){
     console.log ("Você está dentro da range")
 }else{
     console.log ("Você NÃO está dentro da rage")
