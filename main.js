@@ -22,7 +22,7 @@
 
 
 
-//e = resulta em um valor VERDADEIRO se os dois valores de entrada da operação forem VERDADEIRO, caso contrário o resultado é FALSO, no
+//e (&&) = resulta em um valor VERDADEIRO se os dois valores de entrada da operação forem VERDADEIRO, caso contrário o resultado é FALSO, no
 //caso se um dos valores for FALSO
 
 //exemplo = usado para um site, por exemplo de email e senha, os dois sendo corretos, o codigo roda, se n, não roda, se for usar o OR,
@@ -30,7 +30,7 @@
 //se as duas variaveis forem corretas ele valida, se uma das variaveis forem incorretas, ele não valida
 
 
-//ou = resulta em um valor VERDADEIRO se ao menos UMA das condições ou valores de entrada da operação for VERDADEIRO,
+//ou (||) = resulta em um valor VERDADEIRO se ao menos UMA das condições ou valores de entrada da operação for VERDADEIRO,
 //caso, as duas condições forem FALSAS, o resultado é FALSO
 
 //exemplo = você ganha desconto se for estudante ou se tiver cupom, se tiver cupom e n for aluno, ganha, e vice-versa, ja no AND, você 
@@ -38,7 +38,7 @@
 
 
 
-//not = ele inverta a operação, se for verdadeiro, ele inverte para falso, e se for falso, ele inverte para verdadeiro
+//not (!) = ele inverta a operação, se o var (variação) for verdadeiro, ele inverte para falso, e se for falso, ele inverte para verdadeiro
 
 //exemplo = se a luz está acesa e eu negar q ela está acesa, ela vai apagar, se a luz está apagada e eu negar que ela está apagada, ela vai acender,
 //ou seja, ele inverte o valor da operação
